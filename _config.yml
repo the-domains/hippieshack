@@ -1,14 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.9408602
 color:
   saturation: 0.4444444
-  lightness: 0.2508961
   brandStrength: 0.1068726
+  lightness: 0.2508961
   brandColors:
-    - '#A5C3E9'
-    - '#98A6AF'
-    - '#605C59'
-    - '#392A2D'
-    - '#EBBEA6'
+    - '#421B1E'
+    - '#A6BFDE'
+    - '#698AB7'
+    - '#FFFFFD'
+    - '#42586D'
   rhythmicContrast: 0.483871
+layout_spectrum: 1
 name: Hippieshack
